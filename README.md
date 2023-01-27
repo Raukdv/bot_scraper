@@ -21,6 +21,7 @@ In the root folder; python setup.py
 # Run bot
 bot porch
 
+# Process
 The following bot requires a csv with the following dictionary-like format.
 
 itemcode
