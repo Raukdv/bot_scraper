@@ -37,11 +37,17 @@ Note that it requires a product code (it can be any to track the report) the pro
 This bot is based on a specific page but you can change its selection in the following file: bot\porch\selenium.py from line 86 to 91.
 
 In this case there is:
+
 try:
+
     elements = self.get_elements(
+    
     By.CSS_SELECTOR, '.fotorama__img'
+    
     )
+    
 except:
+
     elements = None
     
 the next value in the get_elements() its the css class for point the method try find the exacts values. So say it like this you just need to inspect the page and try
@@ -61,8 +67,12 @@ CSV_NAME = 'filename.csv'
 
 # bot\config.py
 DOMAIN_PATH = os.getenv('DOMAIN_PATH', '')
-CSV_NAME = os.getenv('CSV_NAME', '')
-this os.getenv come from .env  
 
+CSV_NAME = os.getenv('CSV_NAME', '')
+
+this os.getenv come from .env
+
+# final :D
+  
 That said, i may change the syntax of certain parts without changing the final result.
 Have a nice scraper :)
