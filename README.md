@@ -56,6 +56,7 @@ You can config your init values in here and you have to set to in bot\config.py
 # .env values
 This bot use this values in .env to run:
 DOMAIN_PATH = 'https://wordpress-domain/wp-content/uploads/2023/01/'
+
 CSV_NAME = 'filename.csv'
 
 # bot\config.py
