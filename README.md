@@ -1,4 +1,4 @@
-#What is this shit?
+# What is this shit?
 This bot is used to scrape products from third party sites, download images, rename them according to csv files.
 Create csv report files and generate wordpress type urls according to your upload path which is: https://domain.com/wp-content/uploads/2023/01/generate_img.extension
 The downloaded images will be displayed in a file with the name of the product code that will be found (generated) in the root/contentino path.
@@ -15,10 +15,10 @@ itemcode
 # bot_scraper
 This bot use command line and auto setup.
 
-#Install
+# Install
 In the root folder; python setup.py
 
-#Run bot
+# Run bot
 bot porch
 
 The following bot requires a csv with the following dictionary-like format.
@@ -47,18 +47,18 @@ except:
 the next value in the get_elements() its the css class for point the method try find the exacts values. So say it like this you just need to inspect the page and try
 find the correct way for '.fotorama__img'
 
-#Other files:
+# Other files:
 .env
 bot\config.py
 
 You can config your init values in here and you have to set to in bot\config.py
 
-#.env values
+# .env values
 This bot use this values in .env to run:
 DOMAIN_PATH = 'https://wordpress-domain/wp-content/uploads/2023/01/'
 CSV_NAME = 'filename.csv'
 
-#bot\config.py
+# bot\config.py
 DOMAIN_PATH = os.getenv('DOMAIN_PATH', '')
 CSV_NAME = os.getenv('CSV_NAME', '')
 this os.getenv come from .env  
