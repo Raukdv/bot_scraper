@@ -10,7 +10,12 @@ itemcode
   img-2.extension
   img-n.extension
   MainBath.csv
-  ReportBath.csv 
+  ReportBath.csv
+
+# Requeriments
+
+Python >= 3.8
+Chrome ver 91.0.4472.77 for the driver given, do not use any version above 95 and below 90.
 
 # bot_scraper
 This bot use command line and auto setup.
