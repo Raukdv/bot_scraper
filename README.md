@@ -3,7 +3,7 @@ This bot is used to scrape products from third party sites, download images, ren
 Create csv report files and generate wordpress type urls according to your upload path which is: https://domain.com/wp-content/uploads/2023/01/generate_img.extension
 The downloaded images will be displayed in a file with the name of the product code that will be found (generated) in the root/contentino path.
 
-You should be able to see the following in the file whose name is when finished the process: 
+You should be able to see in "contenido" the folder with the product code name like this: 
 
     itemcode
 
