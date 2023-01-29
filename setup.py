@@ -23,7 +23,7 @@ with open(os.path.join(os.path.dirname(__file__), "HISTORY.md")) as history_file
 
 if sys.argv[-1] == "tag":
     os.system("git tag -a v{} -m 'tagging v{}'".format(VERSION, VERSION))
-    os.system("git push --tags && git push origin master")
+    os.system("git push --tags && git push origin main")
     sys.exit()
 
 setup(
